@@ -11,11 +11,12 @@
     <title>We Are Contrast</title>
 
     <link href="css/app.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:900,300,300italic,900italic' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
     <div class="u_hidden">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342.125 48" version="1.1" id="Layer_1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="342.125px" height="48px" enable-background="new 0 0 342.125 48" xml:space="preserve">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342.125 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="342.125px" height="48px" enable-background="new 0 0 342.125 48" xml:space="preserve">
         <defs>
           <g id="logo">
             <path d="M10.34,24.304c0,4.539,1.069,8.107,3.205,10.707c2.136,2.601,5.145,3.898,9.021,3.898
@@ -96,9 +97,9 @@
     <div class="o_block o_block--large c_header-block">
       <div class="o_block o_block--pt-0">
         <div class="c_main-nav__title-area">
-          <h1>
-            We Are
-            <svg class="c_logo c_main-nav__logo" viewBox: "0 0 342.125 48">
+          <h1 class="c_logo">
+            <span class="c_logo__preface">We Are</span>
+            <svg viewBox="0 0 342.125 48" x="0px" y="0px" width="342.125px" height="48px" class="c_logo__mark c_main-nav__logo">
               <title>
                 Contrast
               </title>
@@ -107,69 +108,87 @@
           </h1>
         </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="large-12 columns text-center">
-        Hey there. We're <a href="https://twitter.com/mikeaag" target="_blank">Mike</a> &amp; <a href="https://twitter.com/fredrivett" target="_blank">Fred</a>, and we are Contrast. We write &amp; make stuff.
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="large-12 columns text-center">
-        <div class="o_block">
-          <h2>Words</h2>
-          <ul class="o_undercover-list c_blog-list">
-            <li>
-              <a href="#">A blog post we wrote</a>
-            </li>
-            <li>
-              <a href="#">Another one</a>
-            </li>
-            <li>
-              <a href="#">Another one</a>
-            </li>
-          </ul>
+      <div class="row">
+        <div class="large-12 columns text-center">
+          Hey there. We're <a href="https://twitter.com/mikeaag" target="_blank">Mike</a> &amp; <a href="https://twitter.com/fredrivett" target="_blank">Fred</a>, and we are Contrast. We write &amp; make stuff.
         </div>
       </div>
     </div>
 
+
+
+    <section class="c_words-block">
+      <div class="row">
+        <div class="large-12 columns text-center">
+          <div class="o_block">
+            <h1>Words</h1>
+            <ul class="o_undercover-list c_blog-list">
+              <li>
+                <a href="#">A blog post we wrote</a>
+              </li>
+              <li>
+                <a href="#">Another one</a>
+              </li>
+              <li>
+                <a href="#">Another one</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <div class="o_block c_projects-block">
       <div class="row">
         <div class="large-12 columns text-center">
-          <h2>Projects</h2>
+          <h1>Projects</h1>
 
-          <div class="row small-up-1 medium-up-2 large-up-3">
-            <div class="column">
-              <div class="c_project">
-                Learning To Launch
-              </div>
+          <div class="o_block o_block--huge c_projects-grid">
+            <div class="c_projects-grid__column">
+              <a href="#" class="c_project c_project--ltl">
+                <span class="c_project__title">Learning To Launch</span>
+              </a>
             </div>
-            <div class="column">
-              <div class="c_project">
-                MyYear
-              </div>
+            <div class="c_projects-grid__column">
+              <a href="#" class="c_project c_project--my">
+                <span class="c_project__title">My Year</span>
+              </a>
             </div>
-            <div class="column">
-              <div class="c_project">
-                FoundersKit
-              </div>
+            <div class="c_projects-grid__column">
+              <a href="#" class="c_project c_project--fk">
+                <span class="c_project__title">FoundersKit</span>
+              </a>
             </div>
-            <div class="column">
-              <div class="c_project">
-                TheWorkingLunch
-              </div>
+            <div class="c_projects-grid__column">
+              <a href="#" class="c_project c_project--ff">
+                <span class="c_project__title">FormFiller</span>
+              </a>
             </div>
-            <div class="column">
-              <div class="c_project">
-                FormFiller
-              </div>
+            <div class="c_projects-grid__column">
+              <a href="#" class="c_project c_project--ft">
+                <span class="c_project__title">FlashTabs</span>
+              </a>
             </div>
-            <div class="column">
-              <div class="c_project">
-                OutstandingBar
-              </div>
+            <div class="c_projects-grid__column">
+              <a href="#" class="c_project c_project--hig">
+                <span class="c_project__title">HowsItGoin</span>
+              </a>
+            </div>
+            <div class="c_projects-grid__column">
+              <a href="#" class="c_project c_project--ob">
+                <span class="c_project__title">OutstandingBar</span>
+              </a>
+            </div>
+            <div class="c_projects-grid__column">
+              <a href="#" class="c_project c_project--twl">
+                <span class="c_project__title">TheWorkingLunch</span>
+              </a>
+            </div>
+            <div class="c_projects-grid__column">
+              <a href="#" class="c_project c_project--nsa">
+                <span class="c_project__title">AreTheNSAWatchingMe.com</span>
+              </a>
             </div>
           </div>
         </div>

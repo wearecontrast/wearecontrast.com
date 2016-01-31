@@ -1,0 +1,16 @@
+.c_projects-grid {
+  @include grid-row;
+}
+
+
+  .c_projects-grid__column {
+    @include grid-column(12, 1);
+
+    @include breakpoint(medium) {
+      @include grid-column(6, 1);
+    }
+
+    @include breakpoint(large) {
+      @include grid-column(4, 1);
+    }
+  }

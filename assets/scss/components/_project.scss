@@ -1,10 +1,37 @@
 .c_project {
   @include bg-cover;
-  padding: map-get($my-spacing, x-large) map-get($my-spacing, medium);
-  background-image: url("//unsplash.it/300/300/?random");
+  display: block;
+  height: rem-calc(220);
+  padding-right: map-get($my-spacing, medium);
+   padding-left: map-get($my-spacing, medium);
   mix-blend-mode: darken;
   color: my-color(greyscale, white);
   text-align: center;
   font-size: rem-calc(24);
-  margin-bottom: map-get($my-spacing, large);
+  margin-bottom: 1px;
+  filter: grayscale(100%);
+  background-color: my-color(yellow);
+  opacity: 0.5;
+
+  &:hover {
+    filter: none;
+    background-blend-mode: unset;
+    box-shadow: 0px 0px 150px 0px rgba(0,0,0,0.25);
+    opacity: 1;
+  }
 }
+
+.c_project--ltl { background-image: url("../assets/img/projects/learning-to-launch.png"); }
+.c_project--my { background-image: url("../assets/img/projects/my-year.png"); }
+.c_project--fk { background-image: url("../assets/img/projects/founderskit.png"); }
+.c_project--ff { background-image: url("../assets/img/projects/formfiller.png"); }
+.c_project--ob { background-image: url("../assets/img/projects/outstanding-bar.png"); }
+.c_project--ft { background-image: url("../assets/img/projects/flashtabs.png"); }
+.c_project--hig { background-image: url("../assets/img/projects/howsitgoin.png"); }
+.c_project--twl { background-image: url("../assets/img/projects/the-working-lunch.png"); }
+.c_project--nsa { background-image: url("../assets/img/projects/are-the-nsa-watching-me.png"); }
+
+
+  .c_project__title {
+    display: none;
+  }

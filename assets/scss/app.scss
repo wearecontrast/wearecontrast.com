@@ -1,5 +1,6 @@
 @charset 'utf-8';
 
+@import 'settings/fonts';
 @import 'settings/foundation-settings';
 @import 'foundation';
 @import 'motion-ui';
@@ -59,6 +60,7 @@
 @import 'components/logo';
 @import 'components/main-nav';
 @import 'components/project';
+@import 'components/projects-grid';
 @import 'components/blog-list';
 
 @import 'utilities/utilities';

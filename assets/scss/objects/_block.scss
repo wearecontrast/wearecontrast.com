@@ -55,8 +55,8 @@
   padding-bottom: map-get($my-spacing, xx-large); // 80px
 
   @include breakpoint(medium) {
-       padding-top: map-get($my-spacing, huge); // 160px
-    padding-bottom: map-get($my-spacing, huge); // 160px
+       padding-top: map-get($my-spacing, xxx-large); // 160px
+    padding-bottom: map-get($my-spacing, xxx-large); // 160px
   }
 }
 

@@ -1,9 +1,17 @@
-.c_logo {
-  width: rem-calc(260);
-  height: rem-calc(36);
+/* .c_logo */
 
-  @include breakpoint(medium) {
-    width: rem-calc(550);
-    height: rem-calc(77);
+
+  .c_logo__preface {
+    font-style: italic;
   }
-}
+
+
+  .c_logo__mark {
+    width: rem-calc(260);
+    height: rem-calc(36);
+
+    @include breakpoint(medium) {
+      width: rem-calc(550);
+      height: rem-calc(77);
+    }
+  }
