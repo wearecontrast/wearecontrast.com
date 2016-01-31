@@ -1,0 +1,60 @@
+/**
+ * Spacing variables
+ *
+ * 1) Set our default spacing to be 20(px). Leave off the px amount here as we
+ *     we will be using rem-calc in the $my-spacing-map. This is ok as we
+ *     shouldn't ever reference $my-default-spacing directly, only via the
+ *     $my-spacing map.
+ */
+
+$my-default-spacing    :       20;//px /* [1] */
+
+
+$my-spacing: (
+  'tiny'                :       rem-calc($my-default-spacing / 4),     // 5px
+  'small'               :       rem-calc($my-default-spacing / 2),     // 10px
+  'medium-small'        :       rem-calc($my-default-spacing / 1.333), // 15px
+  'medium'              :       rem-calc($my-default-spacing),         // 20px
+  'medium-large'        :       rem-calc($my-default-spacing * 1.5),   // 30px
+  'large'               :       rem-calc($my-default-spacing * 2),     // 40px
+  'x-large'             :       rem-calc($my-default-spacing * 3),     // 60px
+  'xx-large'            :       rem-calc($my-default-spacing * 4),     // 80px
+  'xxx-large'           :       rem-calc($my-default-spacing * 5),     // 100px
+  'huge'                :       rem-calc($my-default-spacing * 8),     // 160px
+);
+
+
+$my-border-radius: (
+  'tiny'                :       rem-calc($my-default-spacing / 4),     // 5px
+  'small'               :       rem-calc($my-default-spacing / 2),     // 10px
+  'medium-small'        :       rem-calc($my-default-spacing / 1.333), // 15px
+);
+
+
+$my-transition-speed: (
+  'slow'                :       1.5s,
+  'standard'            :       0.5s,
+  'fast'                :       0.2s,
+);
+
+
+$my-transition-method  :       ease;
+
+
+$my-z-index: (
+  // 'satellite'        :       5000,
+  // 'skyscraper'       :       1000,
+  // 'tower-block'      :       500,
+  //'house'             :       200,
+  //'bungalow'          :       100,
+  // 'shed'             :       50,
+  // 'postbox'          :       10,
+  // 'flower'           :       2,
+  // 'grass'            :       1,
+  //'pavement'          :       0,
+  //'pothole'           :      -1,
+  //'ditch'             :      -11,
+  // 'sewer'            :      -100,
+  // 'mine'             :      -300,
+  //'seabed'            :      -1000
+);

@@ -1,0 +1,13 @@
+/**
+ * Undercover list
+ *
+ * Object class for undercover list
+ *
+ * This class removes the default styling applied to lists (margin, padding,
+ *  list-style-type) to keep our list semantically correct but visually
+ *  stripped back.
+ */
+
+.o_undercover-list {
+  @include undercover-list;
+}

@@ -1,0 +1,68 @@
+/**
+ * Header block
+ *
+ * 1) Set position to be relative, so we can...
+ *  1a) ...absolutely position our pseudo triangle within this context.
+ */
+
+.c_header-block {
+  position: relative; /* [1] */
+
+  &::before {
+    content: '';
+    @include absolute-full($bottom: -(rem-calc(70)));
+    z-index: -2;
+    background-image: linear-gradient(
+      to right,
+      my-color(yellow),
+      my-color(yellow) 50%,
+      my-color(greyscale, white) 50%
+    );
+  }
+
+  &::after {
+    content: '';
+    position: absolute; /* [1a] */
+    bottom: -(rem-calc(70));
+    z-index: -1;
+    width: 0;
+    height: 0;
+    border-bottom: 4vw solid white;
+    border-right: 50vw solid transparent;
+  }
+
+  & > * {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+
+
+
+
+/**
+ * Projects block
+ *
+ * 1)
+ */
+
+.c_projects-block {
+  position: relative;
+  background-color: my-color(yellow);
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 8vw solid white;
+    border-right: 100vw solid transparent;
+  }
+
+  & > * {
+    position: relative;
+    z-index: 1;
+  }
+}

@@ -1,0 +1,10 @@
+.c_project {
+  @include bg-cover;
+  padding: map-get($my-spacing, x-large) map-get($my-spacing, medium);
+  background-image: url("//unsplash.it/300/300/?random");
+  mix-blend-mode: darken;
+  color: my-color(greyscale, white);
+  text-align: center;
+  font-size: rem-calc(24);
+  margin-bottom: map-get($my-spacing, large);
+}
