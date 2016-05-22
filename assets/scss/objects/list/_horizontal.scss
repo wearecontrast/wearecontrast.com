@@ -1,0 +1,46 @@
+/**
+ * Horizontal list object
+ *
+ * Remove normal styling and float each item to sit horizontally
+ *
+ * 1) MAGIC EM NUMBERS: Set these in em's so we can add a font-size to the list
+ *     and the whole list will grow in proportion.
+ *  1a) Fallback for non calc browsers, not as accurate but will have to do.
+ *  1b) Nice & accurate em calculated - 4px inline block fix.
+ */
+
+.o_horizontal-list {
+  @include undercover-list;
+  @include clearfix;
+
+  & > li {
+    display: inline-block;
+    margin-right: 0.385em; /* [1][1a] */
+    margin-right: calc(0.625em + 4px); /* [1a][1b] */
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  a {
+    font-size: inherit;
+  }
+}
+
+.o_horizontal-list--centred {
+   margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  & > li {
+    display: inline-block;
+    float: none;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    &:last-of-type {
+      margin-right: 10px;
+    }
+  }
+}

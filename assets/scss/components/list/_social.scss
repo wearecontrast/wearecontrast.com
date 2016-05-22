@@ -1,0 +1,39 @@
+/**
+ * Social list component
+ *
+ * Description
+ *
+ * 1)
+ */
+
+.c_social-list {
+
+}
+
+
+  .c_social-list__image {
+     width: rem-calc(50);
+    height: rem-calc(50);
+  }
+
+  .c_social-list__image--medium {
+    background-image: url("../assets/img/medium.png");
+    background-position: center top;
+    background-size: 100%;
+
+    &:hover {
+      background-position: center bottom;
+    }
+  }
+
+  .c_social-list__image--twitter {
+    &:hover {
+      fill: my-color(twitter);
+    }
+  }
+
+  .c_social-list__image--ph {
+    &:hover {
+      fill: my-color(producthunt);
+    }
+  }

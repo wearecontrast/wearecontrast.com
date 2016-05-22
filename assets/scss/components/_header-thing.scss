@@ -1,0 +1,16 @@
+.c_header-thing {
+  background-image: url("../assets/img/swag.jpg");
+  background-size: cover;
+  background-position: center top;
+  padding: 40vh rem-calc(20) 10vh;
+  background-color: my-color(yellow);
+  background-blend-mode: screen;
+
+  .o_cta {
+    &:hover, &:focus, &:active {
+      background-color: my-color(greyscale, black);
+      border-color: my-color(greyscale, black);
+      color: my-color(greyscale, white);
+    }
+  }
+}

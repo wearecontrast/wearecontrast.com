@@ -1,0 +1,13 @@
+/**
+ * Overlap object
+ *
+ * Takes an element out the flow and then moves it up so its centered on the
+ *  edge between the section above & below.
+ */
+
+.o_overlap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}

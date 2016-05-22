@@ -1,0 +1,14 @@
+.o_cta {
+  border-bottom: 4px solid my-color(greyscale, white);
+  padding: 0.2em 0.25em 0;
+  margin: -0.2em -0.25em 0;
+
+  &:hover {
+    background-color: my-color(greyscale, white);
+    border-radius: 2px;
+  }
+
+  &, &:hover, &:focus, &:active {
+    color: inherit;
+  }
+}

@@ -1,0 +1,65 @@
+.c_project-list {
+  text-align: center;
+
+  & > li > a {
+    @include pseudo-awesome('\f105', '::after', $color: inherit, $margin: '0 0 0 0.3em');
+    position: relative;
+
+    // &::before {
+    //   content: '';
+    //   @include bg-cover;
+    //   position: absolute;
+    //   display: none;
+    //   width: rem-calc(240);
+    //   height: rem-calc(160);
+    //   top: rem-calc(-50);
+    //   z-index: -1;
+    // }
+
+    // &[data-project="ltl"]::before { background-image: url("../assets/img/projects/learning-to-launch.png"); }
+    // &[data-project="my"]::before  { background-image: url("../assets/img/projects/my-year.png"); }
+    // &[data-project="fk"]::before  { background-image: url("../assets/img/projects/founderskit.png"); }
+    // &[data-project="ft"]::before  { background-image: url("../assets/img/projects/formfiller.png"); }
+    // &[data-project="ff"]::before  { background-image: url("../assets/img/projects/outstanding-bar.png"); }
+    // &[data-project="ob"]::before  { background-image: url("../assets/img/projects/flashtabs.png"); }
+    // &[data-project="hig"]::before { background-image: url("../assets/img/projects/howsitgoin.png"); }
+    // &[data-project="twl"]::before { background-image: url("../assets/img/projects/the-working-lunch.png"); }
+    // &[data-project="nsa"]::before { background-image: url("../assets/img/projects/are-the-nsa-watching-me.png"); }
+
+    &::after {
+      display: inline-block;
+      transition: all ease map-get($my-transition-speed, fast);
+    }
+
+    &:hover {
+      border-bottom: 0.1em solid my-color(yellow);
+
+      &::before {
+        // display: block;
+      }
+    }
+
+    &, &:hover, &:focus, &:active {
+      color: my-color(greyscale, black);
+    }
+  }
+
+  li {
+    &:nth-child(even) > a::before { left:  rem-calc(-380); }
+    &:nth-child(odd) > a::before  { right: rem-calc(-380); }
+  }
+
+  .is-expanded {
+    & > a {
+      font-weight: bold;
+
+      &::before {
+        // display: block;
+      }
+
+      &::after {
+        transform: rotate(90deg);
+      }
+    }
+  }
+}

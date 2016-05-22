@@ -64,7 +64,7 @@ $text-direction: ltr;
 $global-margin: 1rem;
 $global-padding: 1rem;
 $global-margin: 1rem;
-$global-weight-normal: normal;
+$global-weight-normal: 300; // normal;
 $global-weight-bold: bold;
 $global-radius: 0;
 $global-text-direction: ltr;
@@ -527,4 +527,3 @@ $topbar-padding: 0.5rem;
 $topbar-background: transparent; //#eee;
 $topbar-link-color: #fff;
 $topbar-input-width: 200px;
-

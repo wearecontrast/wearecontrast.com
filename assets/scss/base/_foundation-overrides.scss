@@ -1,0 +1,32 @@
+.row--full {
+  max-width: none;
+}
+
+.row--flex {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > * {
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoint(medium) {
+      &:first-of-type { padding-right: 0; }
+      &:last-of-type  { padding-left:  0; }
+    }
+  }
+}
+
+
+
+h2 {
+  font-weight: bold;
+  font-size: rem-calc(40);
+  font-style: italic;
+}
+
+h2, h3 {
+  .fa {
+    font-size: 0.5em;
+  }
+}

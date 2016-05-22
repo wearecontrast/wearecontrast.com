@@ -1,0 +1,52 @@
+.c_project-grid {
+  @include clearfix;
+
+  & > li:not(.cb) {
+    width: 50%;
+
+    @include breakpoint(medium) {
+      width: #{(100/3)}%;
+      float: left;
+    }
+    //
+    // @include breakpoint(medium) {
+    //   width: 11.111%;
+    //   float: left;
+    // }
+
+    a {
+      @include bg-cover;
+      display: block;
+      height: rem-calc(240);
+      padding-right: map-get($my-spacing, medium);
+       padding-left: map-get($my-spacing, medium);
+      mix-blend-mode: darken;
+      color: my-color(greyscale, white);
+      text-align: center;
+      font-size: rem-calc(24);
+      margin-bottom: 1px;
+      filter: grayscale(100%);
+      background-color: my-color(yellow);
+      opacity: 0.5;
+      text-indent: 100%;
+
+      &:hover {
+        filter: none;
+        background-blend-mode: unset;
+        // box-shadow: 0px 0px rem-calc(50) 0px rgba(0,0,0,0.25);
+        opacity: 1;
+      }
+
+      &[data-project="ltl"] { background-image: url("../assets/img/projects/learning-to-launch.png"); }
+      &[data-project="my"] { background-image: url("../assets/img/projects/my-year.png"); }
+      &[data-project="fk"] { background-image: url("../assets/img/projects/founderskit.png"); }
+      &[data-project="ff"] { background-image: url("../assets/img/projects/formfiller.png"); }
+      &[data-project="ob"] { background-image: url("../assets/img/projects/outstanding-bar.png"); }
+      &[data-project="ft"] { background-image: url("../assets/img/projects/flashtabs.png"); }
+      &[data-project="hig"] { background-image: url("../assets/img/projects/howsitgoin.png"); }
+      &[data-project="twl"] { background-image: url("../assets/img/projects/the-working-lunch.png"); }
+      &[data-project="nsa"] { background-image: url("../assets/img/projects/are-the-nsa-watching-me.png"); }
+    }
+
+  }
+}

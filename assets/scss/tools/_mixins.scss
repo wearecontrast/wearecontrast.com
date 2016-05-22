@@ -123,7 +123,7 @@
  *  in optional parameters to set each of the top/right/bottom/left properties
  *
  * 1) Optional parameters for top/right/bottom/left
- * 2) If null is passed for any of the parameters then don't specify that
+ * 2) If null is passed for any of the parameters then dont specify that
  *      property, else do specify it
  *      (this allows us to only set the parameters we want)
  */
@@ -137,4 +137,34 @@
   @if ($right  != null) { right:  $right; } /* [2] */
   @if ($bottom != null) { bottom: $bottom; } /* [2] */
   @if ($left   != null) { left:   $left; } /* [2] */
+}
+
+
+
+
+
+
+/**
+ * Mixin for handling FontAwesome pseudo elements
+ *
+ * 1) $symbol is for unicode char (e.g.: '\f105').
+ * 2) $pseudo is for whether it is a ':after' or ':before'.
+ * 3) if $size is parsed, adjust the font-size of the pseudo element. Use em's
+ *      for this to size relative to the parent font-size.
+ * 4) if $color is parsed, set the color for the pseudo element.
+ * 5) if $margin is parsed, set the margin for the pseudo element.
+ * Note: we interpolate this so that it removes quotation marks.
+ * 6) We wanna make sure that all icons have the same font-weight. Seen a lot,
+ *     that this needs to be overwritten
+ */
+
+@mixin pseudo-awesome($symbol, $pseudo, $size:null, $color:null, $margin:null) { /* ([1], [2], [3], [4], [5]) */
+  &#{$pseudo} { /* [2] */
+    content: $symbol; /* [1] */
+    font-family: FontAwesome;
+    font-weight: 400; /* [6] */
+    @if ($size) { font-size: #{$size}em; } /* [3] */
+    @if ($color) { color: #{$color}; } /* [4] */
+    @if ($margin) { margin: #{$margin}; } /* [5] */
+  }
 }
