@@ -97,7 +97,7 @@
                 <?php require("partials/project/details/ft.php") ?>
               </li>
               <li>
-                <a href="#" class="js_project-link">FormfillerJS</a>
+                <a href="#" class="js_project-link">FormFillerJS</a>
                 <?php require("partials/project/details/ff.php") ?>
               </li>
               <li>
