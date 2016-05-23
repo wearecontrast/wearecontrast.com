@@ -5,7 +5,7 @@
   padding: 40vh rem-calc(20) 10vh;
   background-color: my-color(yellow);
   background-blend-mode: screen;
-  transition: padding 1s ease-in-out;
+  transition: padding 1s ease;
 
   .o_cta {
     &:hover, &:focus, &:active {
