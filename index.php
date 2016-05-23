@@ -169,9 +169,6 @@
         ga('require', 'linkid', 'linkid.js');
         ga('require', 'displayfeatures');
         ga('send', 'pageview');
-        <?php if (is_404()) { ?>
-          ga('send', 'event', '404', 'document.location.pathname + document.location.search', 'document.referrer');
-        <?php } ?>
       }
     </script>
   </body>
