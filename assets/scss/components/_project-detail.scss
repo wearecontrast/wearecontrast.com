@@ -39,6 +39,7 @@
   .c_project-detail__main,
   .c_project-detail__sidebar {
     padding: map-get($my-spacing, large);
+    word-wrap: break-word;
 
     @include breakpoint(medium) {
       padding: map-get($my-spacing, x-large);
