@@ -1,46 +1,40 @@
 /**
  * Horizontal list object
  *
- * Remove normal styling and float each item to sit horizontally
+ * Makin' all those lists take a lie down.
  *
- * 1) MAGIC EM NUMBERS: Set these in em's so we can add a font-size to the list
- *     and the whole list will grow in proportion.
- *  1a) Fallback for non calc browsers, not as accurate but will have to do.
- *  1b) Nice & accurate em calculated - 4px inline block fix.
+ * 1) Here we set styles for all list items, and then remove it for the last
+ *     child. We could use :not(:last-of-type) but this increases specificity
+ *     which is a crime of the highest order with objects...
+ *  1a) ...so we just remove it from those at the end here.
  */
 
 .o_horizontal-list {
-  @include undercover-list;
-  @include clearfix;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
-  & > li {
-    display: inline-block;
-    margin-right: 0.385em; /* [1][1a] */
-    margin-right: calc(0.625em + 4px); /* [1a][1b] */
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 
-    &:last-of-type {
+  & > li { /* [1] */
+    margin-right: rem-calc(20);
+
+    &:last-of-type { /* [1a] */
       margin-right: 0;
     }
   }
-
-  a {
-    font-size: inherit;
-  }
 }
 
-.o_horizontal-list--centred {
-   margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+.o_horizontal-list--line {
+  & > li { /* [1] */
+    padding-right: rem-calc(20);
+    border-right: 1px solid my-color(greyscale, steel);
 
-  & > li {
-    display: inline-block;
-    float: none;
-    margin-left: 10px;
-    margin-right: 10px;
-
-    &:last-of-type {
-      margin-right: 10px;
+    &:last-of-type { /* [1a] */
+      padding-right: 0;
+      border-right: 0;
     }
   }
 }

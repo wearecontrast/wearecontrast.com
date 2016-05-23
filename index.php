@@ -41,7 +41,7 @@
 
     <div class="o_overlap">
       <div class="row">
-        <div class="small-12 columns">
+        <div class="small-12 columns text-center">
           <ul class="o_horizontal-list c_social-list o_horizontal-list--centred">
             <li>
               <a href="https://twitter.com/wecontrast" target="_blank">
@@ -73,54 +73,59 @@
       </div>
     </div>
 
-    <div class="o_block o_block--large o_block--pb-0">
+    <div class="o_block o_block--large" id="things-weve-made">
       <div class="row">
         <div class="small-12 small-centered columns">
-          <div class="o_block o_block--pt-0" id="things-weve-made">
-            <h2 class="text-center">Things we've made</h2>
+          <h2 class="text-center">Things we've made</h2>
 
-            <ul class="o_undercover-list c_project-list js_project-list">
-              <li>
-                <a href="#" class="js_project-link">Learning To Launch</a>
-                <?php require("partials/project/details/ltl.php") ?>
-              </li>
-              <li>
-                <a href="#" class="js_project-link">MyYear</a>
-                <?php require("partials/project/details/my.php") ?>
-              </li>
-              <li>
-                <a href="#" class="js_project-link">FoundersKit</a>
-                <?php require("partials/project/details/fk.php") ?>
-              </li>
-              <li>
-                <a href="#" class="js_project-link">FlashTabs</a>
-                <?php require("partials/project/details/ft.php") ?>
-              </li>
-              <li>
-                <a href="#" class="js_project-link">FormFillerJS</a>
-                <?php require("partials/project/details/ff.php") ?>
-              </li>
-              <li>
-                <a href="#" class="js_project-link">Outstanding Bar</a>
-                <?php require("partials/project/details/ob.php") ?>
-              </li>
-              <li>
-                <a href="#" class="js_project-link">HowsItGoin</a>
-                <?php require("partials/project/details/hig.php") ?>
-              </li>
-              <li>
-                <a href="#" class="js_project-link">TheWorkingLunch</a>
-                <?php require("partials/project/details/twl.php") ?>
-              </li>
-              <li>
-                <a href="#" class="js_project-link">AreTheNsaWatchingMe</a>
-                <?php require("partials/project/details/nsa.php") ?>
-              </li>
-            </ul>
-          </div>
+          <ul class="o_undercover-list c_project-list js_project-list">
+            <li>
+              <a href="#" class="js_project-link">Learning To Launch</a>
+              <?php require("partials/project/details/ltl.php") ?>
+            </li>
+            <li>
+              <a href="#" class="js_project-link">MyYear</a>
+              <?php require("partials/project/details/my.php") ?>
+            </li>
+            <li>
+              <a href="#" class="js_project-link">FoundersKit</a>
+              <?php require("partials/project/details/fk.php") ?>
+            </li>
+            <li>
+              <a href="#" class="js_project-link">FlashTabs</a>
+              <?php require("partials/project/details/ft.php") ?>
+            </li>
+            <li>
+              <a href="#" class="js_project-link">FormFillerJS</a>
+              <?php require("partials/project/details/ff.php") ?>
+            </li>
+            <li>
+              <a href="#" class="js_project-link">Outstanding Bar</a>
+              <?php require("partials/project/details/ob.php") ?>
+            </li>
+            <li>
+              <a href="#" class="js_project-link">HowsItGoin</a>
+              <?php require("partials/project/details/hig.php") ?>
+            </li>
+            <li>
+              <a href="#" class="js_project-link">TheWorkingLunch</a>
+              <?php require("partials/project/details/twl.php") ?>
+            </li>
+            <li>
+              <a href="#" class="js_project-link">AreTheNsaWatchingMe</a>
+              <?php require("partials/project/details/nsa.php") ?>
+            </li>
+          </ul>
         </div>
       </div>
+    </div>
 
+    <div class="row">
+      <div class="small-12 small-centered columns text-center">
+        <footer class="o_block o_block--pt-0 c_main-footer">
+          <a href="https://blog.wearecontrast.com/we-are-contrast-e0c511883c1f#.f13nzkqg6" target="_blank" class="c_main-footer__link">Since 2014</a>
+        </footer>
+      </div>
     </div>
 
     <script src="bower_components/jquery/dist/jquery.js"></script>

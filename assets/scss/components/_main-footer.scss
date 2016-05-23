@@ -1,0 +1,29 @@
+/**
+ * Main footer component
+ *
+ * Extends .o_horizontal-list--line
+ *
+ * 1)
+ */
+
+.c_main-footer {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+  .c_main-footer__link {
+    border-top: 1px solid my-color(yellow);
+    padding: 20px;
+    font-size: rem-calc(16);
+    font-style: italic;
+
+    &, &:hover, &:focus, &:active {
+      color: my-color(greyscale, black);
+    }
+
+    &:hover, &:focus, &:active {
+      background-color: my-color(yellow);
+    }
+  }
