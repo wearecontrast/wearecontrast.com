@@ -6,8 +6,7 @@ $(document).foundation();
 
 
 
-
-$(".js_project-link").on('click', function() {
+$(".js_project-link").on('click', function(event) {
   var $this = $(this),
       expandedClass = "is-expanded";
       thisIsExpanded = $this.hasClass(expandedClass);
