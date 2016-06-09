@@ -146,6 +146,17 @@
       </div>
     </div>
 
+    <div class="row">
+      <div class="small-12 small-centered columns text-center">
+        <footer class="o_block o_block--pt-0 c_main-footer">
+          <div class="realtimeuserscounter realtimeuserscounter--styled"></div>
+          <script src="https://realtimeusers.bycontrast.co/realtimeusers.js"></script>
+        </footer>
+      </div>
+    </div>
+
+
+
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/what-input/what-input.js"></script>
     <script src="bower_components/foundation-sites/dist/foundation.js"></script>
