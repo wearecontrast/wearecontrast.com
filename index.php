@@ -110,28 +110,28 @@
               <?php require("partials/project/details/my.php") ?>
             </li>
             <li>
-              <a href="#" class="js_project-link">FoundersKit</a>
-              <?php require("partials/project/details/fk.php") ?>
-            </li>
-            <li>
-              <a href="#" class="js_project-link">FlashTabs</a>
-              <?php require("partials/project/details/ft.php") ?>
+              <a href="#" class="js_project-link">TheWorkingLunch</a>
+              <?php require("partials/project/details/twl.php") ?>
             </li>
             <li>
               <a href="#" class="js_project-link">FormFillerJS</a>
               <?php require("partials/project/details/ff.php") ?>
             </li>
             <li>
+              <a href="#" class="js_project-link">FoundersKit</a>
+              <?php require("partials/project/details/fk.php") ?>
+            </li>
+            <li>
               <a href="#" class="js_project-link">Outstanding Bar</a>
               <?php require("partials/project/details/ob.php") ?>
             </li>
             <li>
-              <a href="#" class="js_project-link">HowsItGoin</a>
-              <?php require("partials/project/details/hig.php") ?>
+              <a href="#" class="js_project-link">FlashTabs</a>
+              <?php require("partials/project/details/ft.php") ?>
             </li>
             <li>
-              <a href="#" class="js_project-link">TheWorkingLunch</a>
-              <?php require("partials/project/details/twl.php") ?>
+              <a href="#" class="js_project-link">HowsItGoin</a>
+              <?php require("partials/project/details/hig.php") ?>
             </li>
             <li>
               <a href="#" class="js_project-link">AreTheNsaWatchingMe</a>
