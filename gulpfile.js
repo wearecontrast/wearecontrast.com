@@ -4,6 +4,8 @@ var gulp = require('gulp');
     sass = require('gulp-sass');
     sourcemaps = require('gulp-sourcemaps'),
     autoprefixer = require('gulp-autoprefixer'),
+    include = require('gulp-include'),
+    concat = require('gulp-concat'),
     runSequence = require('run-sequence'),
     $ = require('gulp-load-plugins')();
 
@@ -55,6 +57,9 @@ gulp.task('sass', function () {
 });
 
 gulp.task('js', function() {
-  gulp.src('assets/js/**/*')
+  gulp.src('assets/js/app.js')
+      .pipe(include())
+        .on('error', console.log)
+      .pipe(concat('all.js'))
       .pipe(gulp.dest('js/'));
 });

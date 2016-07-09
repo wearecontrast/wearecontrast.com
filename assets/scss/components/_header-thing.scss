@@ -1,10 +1,15 @@
+/**
+ * Header thing component
+ *
+ * 1) Only show the bg image and blend mode if blend mode supported
+ *     (use modernizr to check).
+ */
+
 .c_header-thing {
-  background-image: url("../assets/img/swag.jpg");
   background-size: cover;
   background-position: center top;
   padding: 40vh rem-calc(20) 10vh;
   background-color: my-color(yellow);
-  background-blend-mode: screen;
   transition: padding 1s ease 99999s;
 
   .o_cta {
@@ -13,5 +18,10 @@
       border-color: my-color(greyscale, black);
       color: my-color(greyscale, white);
     }
+  }
+
+  .mod_backgroundblendmode & { /* [1] */
+    background-blend-mode: screen;
+    background-image: url("../assets/img/swag.jpg");
   }
 }

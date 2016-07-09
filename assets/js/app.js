@@ -1,7 +1,6 @@
-//= require_tree .
+//= include vendor/modernizr-custom.js
 
 $(document).foundation();
-
 
 
 
