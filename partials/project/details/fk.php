@@ -3,7 +3,7 @@
     <div class="small-12 medium-8 columns">
       <div class="c_project-detail__main">
         <h2><a href="https://founderskit.co" target="_blank">FoundersKit <i class="fa fa-external-link"></i></a></h2>
-        <p>Exclusive Discounts for Founders. Built with the man <a href="https://twitter.com/dylanfeltus" target="_blank">@dylanfeltus</a>.</p>
+        <p>Exclusive Discounts for Founders. Originally built with the man <a href="https://twitter.com/dylanfeltus" target="_blank">@dylanfeltus</a>.</p>
 
         <h3>Related links</h3>
         <ul class="o_undercover-list c_project-detail__related">
