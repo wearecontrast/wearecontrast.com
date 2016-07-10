@@ -1,0 +1,23 @@
+.c_bar {
+  padding: map-get($my-spacing, medium);
+  background-color: my-color(greyscale, jet);
+  text-align: center;
+
+  &, label {
+    color: my-color(greyscale, white);
+  }
+
+  label {
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: map-get($my-spacing, small);
+
+    @include breakpoint(medium) {
+      font-size: 20px;
+    }
+
+    @include breakpoint(large) {
+      margin: 0 map-get($my-spacing, small) 0 0;
+    }
+  }
+}

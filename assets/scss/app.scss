@@ -53,12 +53,14 @@
 
 @import 'base/layout';
 @import 'base/foundation-overrides';
+@import 'base/form';
 
 @import 'objects/block';
 @import 'objects/list/undercover';
 @import 'objects/list/horizontal';
 @import 'objects/overlap';
 @import 'objects/cta';
+@import 'objects/h-form-flex';
 
 @import 'components/block';
 @import 'components/logo';
@@ -71,5 +73,8 @@
 @import 'components/list/blog';
 @import 'components/list/social';
 @import 'components/header-thing';
+@import 'components/button';
+@import 'components/signup-form';
+@import 'components/bar';
 
 @import 'utilities/utilities';

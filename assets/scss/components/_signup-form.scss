@@ -1,0 +1,43 @@
+.c_signup-form {
+  max-width: rem-calc(450);
+
+  .c_bar & {
+    display: inline-flex;
+    width: 100%;
+  }
+}
+
+
+  .c_signup-form__input {
+    input {
+      color: #EEE;
+      font-weight: bold;
+
+      &, &:hover, &:focus, &:active {
+        border: 1px solid my-color(greyscale, white);
+        background-color: transparent;
+      }
+
+      &::-webkit-input-placeholder {
+        color: rgba(255,255,255,0.75);
+      }
+
+      &::-moz-placeholder {
+        color: rgba(255,255,255,0.75);
+        opacity: 1; /* [1] */
+      }
+
+      &:-ms-input-placeholder {
+        color: rgba(255,255,255,0.75);
+      }
+    }
+  }
+
+
+  .c_signup-form .c_button {
+    background-color: my-color(greyscale, white);
+    min-height: 40px;
+    padding: 0 1.25em;
+    font-size: 16px;
+    color: my-color(greyscale, jet);
+  }

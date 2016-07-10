@@ -1,0 +1,23 @@
+.c_button {
+  display: inline-block;
+  padding: 0.7em 1.6em; /* [1] */
+  border: none;
+  margin-bottom: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  &:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: default;
+  }
+}
