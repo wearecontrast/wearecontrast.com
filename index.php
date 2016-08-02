@@ -39,23 +39,19 @@
     </div>
 
     <div class="c_bar">
-      <div id="mc_embed_signup">
-        <form action="//wearecontrast.us9.list-manage.com/subscribe/post?u=b9cac6a7af83c6ca096e0bde9&amp;id=b761064c82" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div class="o_spacer o_spacer--small">
-            <label for="email">Get our weekly startup email&nbsp;direct&nbsp;to&nbsp;your&nbsp;inbox</label>
-            <div id="mc_embed_signup_scroll" class="o_h-form-flex c_signup-form">
-              <div class="o_h-form-flex__input c_signup-form__input">
-                <input type="email" id="email" value="" name="EMAIL" class="c_input-button__input" placeholder="Your email address" id="mce-EMAIL" required>
-              </div>
-              <div class="o_h-form-flex__btn">
-                <input type="submit" value="Sign me up" name="subscribe" id="mc-embedded-subscribe" class="c_button">
-              </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b9cac6a7af83c6ca096e0bde9_b761064c82" tabindex="-1" value=""></div>
+      <form action="https://www.getdrip.com/forms/7565551/submissions" method="post" data-drip-embedded-form="7565551">
+        <div class="o_spacer o_spacer--small">
+          <label for="email">Get our weekly startup email&nbsp;direct&nbsp;to&nbsp;your&nbsp;inbox</label>
+          <div class="o_h-form-flex c_signup-form">
+            <div class="o_h-form-flex__input c_signup-form__input">
+              <input type="email" name="fields[email]" value="" class="c_input-button__input" placeholder="Your email address" />
+            </div>
+            <div class="o_h-form-flex__btn">
+              <input type="submit" name="submit" value="Sign me up" class="c_button" data-drip-attribute="sign-up-button" />
             </div>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
 
     <div class="c_header-thing text-center">
