@@ -4,7 +4,7 @@
 
   <div class="o_block o_block--large">
     <div class="row">
-      <div class="small-12 small-centered columns">
+      <div class="small-12 medium-10 large-8 small-centered columns">
 
         <h1>Privacy Policy</h1>
 
