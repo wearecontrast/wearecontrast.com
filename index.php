@@ -1,3 +1,5 @@
+<?php include('partials/head.php') ?>
+
 <body class="t_homepage">
 
   <div class="u_hidden">
