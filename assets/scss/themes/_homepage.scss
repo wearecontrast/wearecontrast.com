@@ -1,0 +1,7 @@
+.t_homepage {
+  font-size: rem-calc(18);
+
+  @include breakpoint(medium) {
+    font-size: rem-calc(22);
+  }
+}
