@@ -81,6 +81,14 @@
 
         <ul class="o_undercover-list c_project-list js_project-list">
           <li>
+            <a href="#" class="js_project-link">Prodigo</a>
+            <?php require("partials/project/details/prod.php") ?>
+          </li>
+          <li>
+            <a href="#" class="js_project-link">Hit Reply</a>
+            <?php require("partials/project/details/hr.php") ?>
+          </li>
+          <li>
             <a href="#" class="js_project-link">Real Time Users</a>
             <?php require("partials/project/details/rtu.php") ?>
           </li>
