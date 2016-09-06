@@ -1,5 +1,4 @@
 .c_project-detail {
-  position: relative;
   display: none;
   margin: map-get($my-spacing, medium-large) 0;
   text-align: left;
@@ -11,27 +10,6 @@
     &:hover, &:active, &:focus {
       background-color: my-color(yellow);
     }
-  }
-
-  &::before,
-  &::after {
-    content: '';
-    position: absolute;
-     left: 0;
-    right: 0;
-    height: rem-calc(20);
-    border-style: solid;
-    border-color: my-color(yellow);
-  }
-
-  &::before {
-    top: 0;
-    border-width: rem-calc(6) rem-calc(6) 0;
-  }
-
-  &::after {
-    bottom: 0;
-    border-width: 0 rem-calc(6) rem-calc(6);
   }
 }
 

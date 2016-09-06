@@ -1,0 +1,29 @@
+/**
+ * This var function
+ *
+ * This function allows us to grab context aware variables. So if we need
+ *  specific variables just for a specific component or object we can set these
+ *  in a `$c_foo__vars` Sass map, and then access with `this-var(image-size)`
+ *  for example.
+ *
+ * 1) If the map has a key of default, then we have a nested sass map, so use
+ *     map-deep-get.
+ *  1a) If not, then we're dealing with a one level deep map, so just go ahead
+ *       and get that.
+ * 2) $my-var-namespace: This is should be set at the top of the file,
+ *     immediately AFTER the `$c_foo__vars` Sass map. This is because it
+ *     references the Sass map so the map has to be declared first.
+ * 3) $context: optional param, if variants/modifiers are present and require
+ *     variables to be set, they can be set as the top level in the nested
+ *     `$c_foo__vars` Sass map. If none provided then it will default to
+ *     `default`.
+ * 4) $var: The variable from the Sass map we want to select, e.g. `image-size`.
+ */
+
+@function this-var($var, $context: default) {
+  @if (map-has-key($my-var-namespace, default)) { /* [1] */
+    @return map-deep-get($my-var-namespace, $context, $var); /* [2], [3], [4] */
+  } @else { /* [1a] */
+    @return map-get($my-var-namespace, $var);
+  }
+}

@@ -1,5 +1,10 @@
 .c_project-list {
   text-align: center;
+  font-size: rem-calc(18);
+
+  @include breakpoint(medium) {
+    font-size: rem-calc(22);
+  }
 
   & > li > a {
     @include pseudo-awesome('\f105', '::after', $color: inherit, $margin: '0 0 0 0.3em');

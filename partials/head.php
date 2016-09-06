@@ -1,3 +1,5 @@
+<?php $baseTitle = 'We Are CONTRAST' ?>
+
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
@@ -8,9 +10,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>We Are CONTRAST</title>
+    <title><?php echo (isset($title) ? $title . ' | ' . $baseTitle : $baseTitle) ?></title>
 
-    <link href="css/app.css" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lato:900,300,300italic,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 

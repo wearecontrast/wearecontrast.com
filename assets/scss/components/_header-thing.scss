@@ -11,6 +11,11 @@
   padding: 30vh rem-calc(20) 10vh;
   background-color: my-color(yellow);
   transition: padding 1s ease 99999s;
+  font-size: rem-calc(18);
+
+  @include breakpoint(medium) {
+    font-size: rem-calc(22);
+  }
 
   .o_cta {
     &:hover, &:focus, &:active {
@@ -24,4 +29,11 @@
     background-blend-mode: screen;
     background-image: url("../assets/img/swag.jpg");
   }
+}
+
+.c_header-thing--full {
+  display: flex;
+  align-items: center;
+  padding: rem-calc(40) rem-calc(20);
+  min-height: 100vh;
 }

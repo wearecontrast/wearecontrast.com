@@ -1,0 +1,9 @@
+@mixin bg-cover($variant: null) {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  @if ($variant == fixed) {
+    background-attachment: fixed;
+  }
+}

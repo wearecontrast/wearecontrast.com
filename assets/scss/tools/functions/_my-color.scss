@@ -1,0 +1,39 @@
+/**
+ * my-color function
+ *
+ * This function gets all our $my-color map values and allows them to be
+ *  called for use by doing something like:
+ *  `background-color: my-color(pink);` or
+ *  `background-color: my-color(pink, dark);`
+ *
+ * 1) Required parameter color
+ *  1a) Optional parameter $variant, if not parsed just get the standard colour
+ * 2) Get all first level items within the map, the overarching colour (blue/
+ *     pink etc.).
+ * 3) Before we continue, let's check whether we have the variant requested in
+ *     the map, and set this as a boolean to $variant-exists.
+ * 4) If $variant-exists, then just get the variant.
+ *  4a) Else, get the standard colour...
+ *  4b) ...if we wanted the 'dark' variant, then let's scale the colour by -10%
+ *  4c) ...if we wanted the 'darker' variant, then let's scale the colour by -25%
+ * 5) Return the colour so it can be set (as the background-color, for example).
+ */
+
+@function my-color( $color, $variant: standard ) { /* [1][1a] */
+  $color: map-get($my-colors, $color); /* [2] */
+  $variant-exists: map-has-key($color, $variant); /* [3] */
+
+  @if ($variant-exists) {
+    $color: map-get($color, $variant); /* [4] */
+  } @else {
+    $color: map-get($color, standard); /* [4a] */
+
+    @if ($variant == dark) {
+      $color: scale-color($color, $lightness: -10%); /* [4b] */
+    } @else if ($variant == darker) {
+      $color: scale-color($color, $lightness: -25%); /* [4c] */
+    }
+  }
+
+  @return $color; /* [5] */
+}

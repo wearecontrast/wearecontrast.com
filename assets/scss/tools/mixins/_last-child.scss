@@ -1,0 +1,27 @@
+/**
+ * Last child mixin
+ *
+ * Enables us to access all the last children, to three levels. Useful to
+ *  make sure elements inside elements are selected, like a button inside a
+ *  form.
+ *
+ * Primarily used to remove the space at the bottom of an element.
+ *
+ * Usage:
+ * =============================================================================
+ * @include last-child {
+ *   margin-bottom: 0;
+ * }
+ * =============================================================================
+ *
+ * Originally grabbed form CSS Tricks:
+ *  https://css-tricks.com/spacing-the-bottom-of-modules/
+ */
+
+@mixin last-child {
+  & > *:last-child,
+  & > *:last-child > *:last-child,
+  & > *:last-child > *:last-child > *:last-child {
+    @content
+  }
+}

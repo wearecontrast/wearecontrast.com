@@ -1,10 +1,21 @@
-.c_signup-form {
-  max-width: rem-calc(450);
+$c_signup-form__vars: (
+  default: (
+    bg-color : my-color(greyscale, black),
+    color    : my-color(greyscale, white),
+  ),
+  light: (
+    bg-color : my-color(greyscale, white),
+    color    : my-color(greyscale, jet),
+  ),
+);
 
-  .c_bar & {
-    display: inline-flex;
-    width: 100%;
-  }
+$my-var-namespace: $c_signup-form__vars;
+
+
+.c_signup-form {
+  display: inline-flex;
+  max-width: rem-calc(450);
+  width: 100%;
 }
 
 
@@ -14,30 +25,69 @@
       font-weight: bold;
 
       &, &:hover, &:focus, &:active {
-        border: 1px solid my-color(greyscale, white);
+        border: 1px solid this-var(bg-color);
         background-color: transparent;
       }
 
       &::-webkit-input-placeholder {
-        color: rgba(255,255,255,0.75);
+        color: rgba(0,0,0,0.75);
       }
 
       &::-moz-placeholder {
-        color: rgba(255,255,255,0.75);
+        color: rgba(0,0,0,0.75);
         opacity: 1; /* [1] */
       }
 
       &:-ms-input-placeholder {
-        color: rgba(255,255,255,0.75);
+        color: rgba(0,0,0,0.75);
+      }
+    }
+
+    .c_signup-form--light & {
+      input {
+        color: #EEE;
+
+        &, &:hover, &:focus, &:active {
+          border: 1px solid this-var(bg-color, light);
+        }
+
+        &::-webkit-input-placeholder {
+          color: rgba(255,255,255,0.75);
+        }
+
+        &::-moz-placeholder {
+          color: rgba(255,255,255,0.75);
+          opacity: 1; /* [1] */
+        }
+
+        &:-ms-input-placeholder {
+          color: rgba(255,255,255,0.75);
+        }
       }
     }
   }
 
 
-  .c_signup-form .c_button {
-    background-color: my-color(greyscale, white);
+  .c_signup-form__button {
+    background-color: this-var(bg-color);
     min-height: 40px;
     padding: 0 1.25em;
     font-size: 16px;
-    color: my-color(greyscale, jet);
+    color: this-var(color);
+
+    .c_signup-form--light & {
+      background-color: this-var(bg-color, light);
+      color: this-var(color, light);
+    }
+
+    .c_signup-form--large & {
+      min-height: 60px;
+    padding: 0 1.5em;
+    }
   }
+
+
+  .c_signup-form--large {
+    max-width: rem-calc(520);
+  }
+

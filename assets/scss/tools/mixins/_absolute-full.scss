@@ -1,0 +1,22 @@
+/**
+ * Absolute full mixin
+ *
+ * This mixin allows us to include an absolutely positioned element and pass
+ *  in optional parameters to set each of the top/right/bottom/left properties
+ *
+ * 1) Optional parameters for top/right/bottom/left
+ * 2) If null is passed for any of the parameters then dont specify that
+ *      property, else do specify it
+ *      (this allows us to only set the parameters we want)
+ */
+
+@mixin absolute-full($top:    0,
+                     $right:  0,
+                     $bottom: 0,
+                     $left:   0) { /* [1] */
+  position: absolute;
+  @if ($top    != null) { top:    $top; } /* [2] */
+  @if ($right  != null) { right:  $right; } /* [2] */
+  @if ($bottom != null) { bottom: $bottom; } /* [2] */
+  @if ($left   != null) { left:   $left; } /* [2] */
+}

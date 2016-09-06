@@ -1,4 +1,4 @@
-<div class="c_project-detail js_project-detail">
+<div class="o_brackets o_brackets--light c_project-detail js_project-detail">
   <div class="row row--flex">
     <div class="small-12 medium-8 columns">
       <div class="c_project-detail__main">

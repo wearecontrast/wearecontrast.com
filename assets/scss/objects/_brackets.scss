@@ -1,0 +1,31 @@
+.o_brackets {
+  position: relative;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+     left: 0;
+    right: 0;
+    height: rem-calc(20);
+    border-style: solid;
+    border-color: my-color(greyscale, black);
+  }
+
+  &::before {
+    top: 0;
+    border-width: rem-calc(6) rem-calc(6) 0;
+  }
+
+  &::after {
+    bottom: 0;
+    border-width: 0 rem-calc(6) rem-calc(6);
+  }
+}
+
+.o_brackets--light {
+  &::before,
+  &::after {
+    border-color: my-color(yellow);
+  }
+}

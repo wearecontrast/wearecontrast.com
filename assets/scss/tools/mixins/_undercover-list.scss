@@ -1,0 +1,14 @@
+/**
+ * Undercover List mixin
+ *
+ * 1) Should be applied to a <ul> or <ol> element
+ */
+
+@mixin undercover-list {
+  list-style-type: none;
+  margin-left: 0; margin-bottom: 0;
+
+  & > li {
+    padding:0;
+  }
+}

@@ -1,17 +1,32 @@
-/* .c_logo */
+.c_logo {
+  font-size: 1.5rem;
+
+  @include breakpoint(medium) {
+    font-size: 3rem;
+  }
+}
 
 
   .c_logo__preface {
+    display: inline-block;
+    margin-bottom: 10px;
     font-style: italic;
+    font-weight: 300;
+    font-size: 1em;
+
+    &, &:hover, &:focus, &:active {
+      color: my-color(greyscale, black);
+    }
   }
 
 
   .c_logo__mark {
-    width: rem-calc(260);
-    height: rem-calc(36);
+    width: 11.45em;
+    height: 1.6em;
+  }
 
+  .c_logo--small {
     @include breakpoint(medium) {
-      width: rem-calc(550);
-      height: rem-calc(77);
+      font-size: 1rem;
     }
   }

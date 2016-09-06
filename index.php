@@ -1,21 +1,23 @@
-<?php include('partials/head.php') ?>
+<?php
+  $root = $_SERVER['DOCUMENT_ROOT'];
+?>
+
+<?php include $root . '/partials/head.php' ?>
 
 <body class="t_homepage">
 
-  <div class="u_hidden">
-    <?php require("partials/svg-defs.php"); ?>
-  </div>
+  <?php require $root . '/partials/svg-defs.php' ?>
 
   <div class="c_bar">
     <form action="https://www.getdrip.com/forms/7565551/submissions" method="post" data-drip-embedded-form="7565551">
       <div class="o_spacer o_spacer--small">
-        <label for="email">Get our weekly startup email&nbsp;direct&nbsp;to&nbsp;your&nbsp;inbox</label>
-        <div class="o_h-form-flex c_signup-form">
+        <label for="email">Get our weekly email&nbsp;direct&nbsp;to&nbsp;your&nbsp;inbox</label>
+        <div class="o_h-form-flex c_signup-form c_signup-form--light">
           <div class="o_h-form-flex__input c_signup-form__input">
-            <input type="email" name="fields[email]" value="" class="c_input-button__input" placeholder="Your email address" />
+            <input type="email" name="fields[email]" placeholder="Your email address" />
           </div>
           <div class="o_h-form-flex__btn">
-            <input type="submit" name="submit" value="Sign me up" class="c_button" data-drip-attribute="sign-up-button" />
+            <input type="submit" name="submit" value="Sign me up" class="c_button c_signup-form__button" data-drip-attribute="sign-up-button" />
           </div>
         </div>
       </div>

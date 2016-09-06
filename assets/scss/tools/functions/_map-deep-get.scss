@@ -1,0 +1,20 @@
+/**
+ * Map deep get function
+ *
+ * @author Hugo Giraudel
+ * @access public
+ * @param {Map} $map - Map
+ * @param {Arglist} $keys - Key chain
+ * @return {*} - Desired value
+ *
+ * This allows us to easily get the values of nested Sass maps. For more info
+ *  visit: https://css-tricks.com/snippets/sass/deep-getset-maps/
+ */
+
+@function map-deep-get($map, $keys...) {
+  @each $key in $keys {
+    $map: map-get($map, $key);
+  }
+
+  @return $map;
+}
