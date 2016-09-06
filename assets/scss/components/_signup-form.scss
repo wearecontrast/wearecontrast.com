@@ -21,7 +21,7 @@ $my-var-namespace: $c_signup-form__vars;
 
   .c_signup-form__input {
     input {
-      color: #EEE;
+      color: this-var(bg-color);
       font-weight: bold;
 
       &, &:hover, &:focus, &:active {
@@ -30,16 +30,16 @@ $my-var-namespace: $c_signup-form__vars;
       }
 
       &::-webkit-input-placeholder {
-        color: rgba(0,0,0,0.75);
+        color: rgba(0,0,0,0.5);
       }
 
       &::-moz-placeholder {
-        color: rgba(0,0,0,0.75);
+        color: rgba(0,0,0,0.5);
         opacity: 1; /* [1] */
       }
 
       &:-ms-input-placeholder {
-        color: rgba(0,0,0,0.75);
+        color: rgba(0,0,0,0.5);
       }
     }
 
