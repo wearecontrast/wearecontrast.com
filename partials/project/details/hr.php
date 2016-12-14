@@ -17,10 +17,8 @@
         <span>Podcast</span>
         <h4>Date launched</h4>
         <span>August 2016</span>
-        <h4>Time invested</h4>
-        <span>Ongoing</span>
         <h4>Status</h4>
-        <span>Live</span>
+        <span>No longer recording</span>
       </div>
     </div>
   </div>
