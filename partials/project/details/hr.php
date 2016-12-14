@@ -2,7 +2,7 @@
   <div class="row row--flex">
     <div class="small-12 medium-8 columns">
       <div class="c_project-detail__main">
-        <h2><a href="#">Hit Reply <i class="fa fa-external-link"></i></a></h2>
+        <h2><a href="https://hitreply.co/">Hit Reply <i class="fa fa-external-link"></i></a></h2>
         <p>The inside view on what it’s like to start a startup.</p>
 
         <h3>Related links</h3>
