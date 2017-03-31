@@ -2,12 +2,12 @@
   <div class="row row--flex">
     <div class="small-12 medium-8 columns">
       <div class="c_project-detail__main">
-        <h2><a href="http://howsitgo.in/" target="_blank">HowsItGoin <i class="fa fa-external-link"></i></a></h2>
+        <h2><a href="http://howsitgo.in/?utm_source=wearecontrast.com" target="_blank">HowsItGoin <i class="fa fa-external-link"></i></a></h2>
         <p>A simple web app that allows you to set questions &amp; track your answers</p>
 
         <h3>Related links</h3>
         <ul class="o_undercover-list c_project-detail__related">
-          <li><a href="http://howsitgo.in/" target="_blank">HowsItGo.in</a></li>
+          <li><a href="http://howsitgo.in/?utm_source=wearecontrast.com" target="_blank">HowsItGo.in</a></li>
           <li><a href="http://wearecontrast.com/2015/01/month-1-introducing-howsitgoin/" target="_blank">Month 1 &ndash; Introducing HowsItGoin</a></li>
           <li><a href="http://wearecontrast.com/2015/01/48-hours-later-stats-product-hunt/" target="_blank">48 Hours Later: Stats From Product Hunt</a></li>
           <li><a href="https://www.producthunt.com/tech/howsitgoin" target="_blank">Product Hunt Launch</a></li>

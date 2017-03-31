@@ -2,12 +2,12 @@
   <div class="row row--flex">
     <div class="small-12 medium-8 columns">
       <div class="c_project-detail__main">
-        <h2><a href="https://theworkinglunch.co/" target="_blank">The Working Lunch <i class="fa fa-external-link"></i></a></h2>
+        <h2><a href="https://theworkinglunch.co/?utm_source=wearecontrast.com" target="_blank">The Working Lunch <i class="fa fa-external-link"></i></a></h2>
         <p>Daily resources for startup founders.</p>
 
         <h3>Related links</h3>
         <ul class="o_undercover-list c_project-detail__related">
-          <li><a href="https://theworkinglunch.co/" target="_blank">TheWorkingLunch.co</a></li>
+          <li><a href="https://theworkinglunch.co/?utm_source=wearecontrast.com" target="_blank">TheWorkingLunch.co</a></li>
           <li><a href="http://wearecontrast.com/2015/08/month-6-introducing-the-working-lunch/" target="_blank">Month 6 &ndash; Introducing The Working Lunch</a></li>
           <li><a href="https://www.producthunt.com/tech/the-working-lunch" target="_blank">Product Hunt Launch</a></li>
           <li><a href="https://twitter.com/twlco" target="_blank">@twlco</a></li>
