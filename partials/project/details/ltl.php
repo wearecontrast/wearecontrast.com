@@ -7,7 +7,7 @@
 
         <h3>Related links</h3>
         <ul class="o_undercover-list c_project-detail__related">
-          <li><a href="https://learningtolaunch.co/?utm_source=wearecontrast.com">LearingToLaunch.co</a></li>
+          <li><a href="https://learningtolaunch.co/?utm_source=wearecontrast.com">LearningToLaunch.co</a></li>
           <li><a href="https://learningtolaunch.co/read?utm_source=wearecontrast.com">Read online for free</a></li>
           <li><a href="https://www.producthunt.com/books/learning-to-launch">Product Hunt Launch</a></li>
         </ul>
