@@ -3,7 +3,7 @@
     <div class="small-12 medium-8 columns">
       <div class="c_project-detail__main">
         <h2><a href="https://usercompass.com/?utm_source=wearecontrast.com">UserCompass <i class="fa fa-external-link"></i></a></h2>
-        <p>Zero-setup NPS Surveys for Stripe.</p>
+        <p>Automated NPS Surveys for Stripe.</p>
 
         <h3>Related links</h3>
         <ul class="o_undercover-list c_project-detail__related">
