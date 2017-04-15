@@ -2,7 +2,7 @@
   <div class="row row--flex">
     <div class="small-12 medium-8 columns">
       <div class="c_project-detail__main">
-        <h2><a href="https://realtimeusers.bycontrast.co/?utm_source=wearecontrast.com">Real Time Users <i class="fa fa-external-link"></i></a></h2>
+        <h2><a href="https://realtimeusers.bycontrast.co/?utm_source=wearecontrast.com" target="_blank">Real Time Users <i class="fa fa-external-link"></i></a></h2>
         <p>Add a real time user counter to your site in 60 seconds.</p>
 
         <h3>Related links</h3>

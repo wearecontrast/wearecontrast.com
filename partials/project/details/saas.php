@@ -2,7 +2,7 @@
   <div class="row row--flex">
     <div class="small-12 medium-8 columns">
       <div class="c_project-detail__main">
-        <h2><a href="https://storiesasaservice.com/?utm_source=wearecontrast.com">StoriesAsAService <i class="fa fa-external-link"></i></a></h2>
+        <h2><a href="https://storiesasaservice.com/?utm_source=wearecontrast.com" target="_blank">StoriesAsAService <i class="fa fa-external-link"></i></a></h2>
         <p>Add stories to your site in just one line of code.</p>
 
         <h3>Related links</h3>

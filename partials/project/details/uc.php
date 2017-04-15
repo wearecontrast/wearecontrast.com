@@ -2,7 +2,7 @@
   <div class="row row--flex">
     <div class="small-12 medium-8 columns">
       <div class="c_project-detail__main">
-        <h2><a href="https://usercompass.com/?utm_source=wearecontrast.com">UserCompass <i class="fa fa-external-link"></i></a></h2>
+        <h2><a href="https://usercompass.com/?utm_source=wearecontrast.com" target="_blank">UserCompass <i class="fa fa-external-link"></i></a></h2>
         <p>Automated NPS Surveys for Stripe.</p>
 
         <h3>Related links</h3>
