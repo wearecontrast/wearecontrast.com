@@ -87,6 +87,10 @@
             <?php require("partials/project/details/uc.php") ?>
           </li>
           <li>
+            <a href="#" class="js_project-link">Stories as a Service</a>
+            <?php require("partials/project/details/saas.php") ?>
+          </li>
+          <li>
             <a href="#" class="js_project-link">Hit Reply</a>
             <?php require("partials/project/details/hr.php") ?>
           </li>
