@@ -1,6 +1,6 @@
 <?php
   $root = $_SERVER['DOCUMENT_ROOT'];
-  $title = "Weekly Email";
+  $title = "Monthly Email";
 ?>
 
 <?php include $root . '/partials/head.php' ?>
@@ -25,14 +25,13 @@
         </h2>
 
         <div class="o_block o_block--large o_brackets">
-          <h1>Free weekly emails</h1>
-          <p class="u_mb-l">Join the hundreds of makers and founders who receive a few little words from us in their inbox every Tuesday.</p>
+          <h1>Free monthly emails</h1>
+          <p class="u_mb-l">Join the hundreds of makers and founders who receive a few little words from us in their inbox once a month.</p>
 
           <ul class="c_tick-list u_mb-l">
             <li>Latest blog posts</li>
-            <li>Latest podcast episodes</li>
             <li>Exclusive updates on projects we're working on</li>
-            <li>Personal book &amp; reading recommendations</li>
+            <li>Personal book &amp; article recommendations</li>
             <li>More for makers and founders</li>
           </ul>
 

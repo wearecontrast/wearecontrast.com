@@ -11,7 +11,7 @@
   <div class="c_bar">
     <form action="https://www.getdrip.com/forms/7565551/submissions" method="post" data-drip-embedded-form="7565551">
       <div class="o_spacer o_spacer--small">
-        <label for="email">Get our weekly email&nbsp;direct&nbsp;to&nbsp;your&nbsp;inbox</label>
+        <label for="email">Get our monthly email&nbsp;direct&nbsp;to&nbsp;your&nbsp;inbox</label>
         <div class="o_h-form-flex c_signup-form c_signup-form--light">
           <div class="o_h-form-flex__input c_signup-form__input">
             <input type="email" name="fields[email]" placeholder="Your email address" />
