@@ -2,15 +2,15 @@
   <div class="row row--flex">
     <div class="small-12 medium-8 columns">
       <div class="c_project-detail__main">
-        <h2><a href="https://outstandingbar.com/?utm_source=wearecontrast.com" target="_blank">Outstanding Bar <i class="fa fa-external-link"></i></a></h2>
+        <h2><a href="https://outstandingbar.com/?utm_source=wearecontrast.com" target="_blank" rel="nofollow">Outstanding Bar <i class="fa fa-external-link"></i></a></h2>
         <p>Tired of countless pop-ups? Outstanding Bar is a simple Wordpress plugin that integrates with Mailchimp. Simply set up your settings once and collect emails in a way that your users won't find offensive.</p>
 
         <h3>Related links</h3>
         <ul class="o_undercover-list c_project-detail__related">
-          <li><a href="https://outstandingbar.com/?utm_source=wearecontrast.com" target="_blank">OutstandingBar.com</a></li>
-          <li><a href="http://wearecontrast.com/2015/03/month-3-introducing-outstanding-bar/" target="_blank">Month 3 &ndash; Introducing Outstanding Bar</a></li>
-          <li><a href="https://www.producthunt.com/tech/outstandingbar" target="_blank">Product Hunt Launch</a></li>
-          <li><a href="https://wordpress.org/plugins/outstanding-bar/" target="_blank">Wordpress Plugin Directory</a></li>
+          <li><a href="https://outstandingbar.com/?utm_source=wearecontrast.com" target="_blank" rel="nofollow">OutstandingBar.com</a></li>
+          <li><a href="https://blog.wearecontrast.com/month-3-introducing-outstanding-bar-cd2e490589fc" target="_blank" rel="nofollow">Month 3 &ndash; Introducing Outstanding Bar</a></li>
+          <li><a href="https://www.producthunt.com/tech/outstandingbar" target="_blank" rel="nofollow">Product Hunt Launch</a></li>
+          <li><a href="https://wordpress.org/plugins/outstanding-bar/" target="_blank" rel="nofollow">Wordpress Plugin Directory</a></li>
         </ul>
       </div>
     </div>

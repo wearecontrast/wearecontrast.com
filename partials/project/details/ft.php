@@ -8,8 +8,9 @@
         <h3>Related links</h3>
         <ul class="o_undercover-list c_project-detail__related">
           <li><a href="http://flashtabs.co/?utm_source=wearecontrast.com" target="_blank">FlashTabs.co</a></li>
-          <li><a href="https://chrome.google.com/webstore/detail/flashtabs/gcgdbnfebnhdbffnohjibaomkiepmfnb" target="_blank">Chrome Web Store</a></li>
-          <li><a href="https://www.producthunt.com/tech/flashtabs" target="_blank">Product Hunt Launch</a></li>
+          <li><a href="https://chrome.google.com/webstore/detail/flashtabs/gcgdbnfebnhdbffnohjibaomkiepmfnb" target="_blank" rel="nofollow">Chrome Web Store</a></li>
+          <li><a href="https://blog.wearecontrast.com/month-2-introducing-flashtabs-7bab38d0e5dc" target="_blank">Month 2 &ndash; Introducing FlashTabs</a></li>
+          <li><a href="https://www.producthunt.com/tech/flashtabs" target="_blank" rel="nofollow">Product Hunt Launch</a></li>
         </ul>
       </div>
     </div>

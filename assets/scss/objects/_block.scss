@@ -11,12 +11,17 @@
  */
 
 .o_block {
-     padding-top: map-get($my-spacing, large); // 40px
-  padding-bottom: map-get($my-spacing, large); // 40px
+     padding-top: map-get($my-spacing, medium); // 20px
+  padding-bottom: map-get($my-spacing, medium); // 20px
 
   & > *:last-child, /* [1] */
   & > .row:last-child > .columns:last-child > *:last-child { /* [1a] */
     margin-bottom: 0;
+  }
+
+  @include breakpoint(medium) {
+       padding-top: map-get($my-spacing, large); // 40px
+    padding-bottom: map-get($my-spacing, large); // 40px
   }
 }
 

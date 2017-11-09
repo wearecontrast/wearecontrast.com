@@ -8,7 +8,9 @@
         <h3>Related links</h3>
         <ul class="o_undercover-list c_project-detail__related">
           <li><a href="https://usercompass.com/?utm_source=wearecontrast.com" target="_blank">UserCompass.com</a></li>
-          <li><a href="http://twitter.com/usercompass" target="_blank">@UserCompass</a></li>
+          <li><a href="http://twitter.com/usercompass" target="_blank" rel="nofollow">@UserCompass</a></li>
+          <li><a href="https://betalist.com/startups/usercompass" target="_blank" rel="nofollow">BetaList</a></li>
+          <li><a href="https://www.startups.co/reviews/two-simple-questions-might-change-your-companys-fortunes" target="_blank" rel="nofollow">Featured on Startups.co</a></li>
         </ul>
       </div>
     </div>
@@ -17,9 +19,9 @@
         <h4>Project Type</h4>
         <span>SaaS</span>
         <h4>Date launched</h4>
-        <span>Coming soon</span>
+        <span>August 2017</span>
         <h4>Status</h4>
-        <span>Pre-launch</span>
+        <span>Live</span>
       </div>
     </div>
   </div>

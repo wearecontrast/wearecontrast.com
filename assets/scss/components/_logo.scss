@@ -1,5 +1,6 @@
 .c_logo {
   font-size: 1.5rem;
+  margin-bottom: 0;
 
   @include breakpoint(medium) {
     font-size: 3rem;

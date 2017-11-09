@@ -2,14 +2,14 @@
   <div class="row row--flex">
     <div class="small-12 medium-8 columns">
       <div class="c_project-detail__main">
-        <h2><a href="https://learningtolaunch.co/?utm_source=wearecontrast.com" target="_blank">Learning To Launch <i class="fa fa-external-link"></i></a></h2>
+        <h2><a href="https://learningtolaunch.co/?utm_source=wearecontrast.com" target="_blank" rel="nofollow">Learning To Launch <i class="fa fa-external-link"></i></a></h2>
         <p>Learning To Launch is a short ebook where we share what we learnt launching six projects in six months.</p>
 
         <h3>Related links</h3>
         <ul class="o_undercover-list c_project-detail__related">
-          <li><a href="https://learningtolaunch.co/?utm_source=wearecontrast.com">LearningToLaunch.co</a></li>
-          <li><a href="https://learningtolaunch.co/read?utm_source=wearecontrast.com">Read online for free</a></li>
-          <li><a href="https://www.producthunt.com/books/learning-to-launch">Product Hunt Launch</a></li>
+          <li><a href="https://learningtolaunch.co/?utm_source=wearecontrast.com" rel="nofollow">LearningToLaunch.co</a></li>
+          <li><a href="https://learningtolaunch.co/read?utm_source=wearecontrast.com" rel="nofollow">Read online for free</a></li>
+          <li><a href="https://www.producthunt.com/books/learning-to-launch" rel="nofollow">Product Hunt Launch</a></li>
         </ul>
       </div>
     </div>

@@ -37,7 +37,7 @@
           </svg>
         </h1>
 
-        Hey there. We're <a href="https://twitter.com/mikeaag" target="_blank" class="o_cta">Mike</a> &amp; <a href="https://twitter.com/fredrivett" target="_blank" class="o_cta">Fred</a>, and we are Contrast. We <a href="https://blog.wearecontrast.com/" class="o_cta">write</a> &amp; <a href="#things-weve-made" class="o_cta">make stuff</a>.
+        Hey there. We're <a href="https://twitter.com/mikeaag" target="_blank" class="o_cta" rel="nofollow">Mike</a> &amp; <a href="https://twitter.com/fredrivett" target="_blank" class="o_cta" rel="nofollow">Fred</a>, and we are Contrast. We <a href="https://blog.wearecontrast.com/" class="o_cta">write</a> &amp; <a href="#things-weve-made" class="o_cta">make stuff</a>.
       </div>
     </div>
   </div>
@@ -47,7 +47,7 @@
       <div class="small-12 columns text-center">
         <ul class="o_horizontal-list c_social-list o_horizontal-list--centred">
           <li>
-            <a href="https://twitter.com/wecontrast" target="_blank">
+            <a href="https://twitter.com/wecontrast" target="_blank" rel="nofollow">
               <svg viewBox="0 0 200 162.5" x="0px" y="0px" width="200px" height="162.5px" class="c_social-list__image c_social-list__image--twitter">
                 <title>
                   Twitter
@@ -62,7 +62,7 @@
             </a>
           </li>
           <li>
-            <a href="https://www.producthunt.com/@mikeaag/collections/i-made-that" target="_blank">
+            <a href="https://www.producthunt.com/@mikeaag/collections/i-made-that" target="_blank" rel="nofollow">
               <svg viewBox="0 0 240 240" x="0px" y="0px" width="240px" height="240px" class="c_social-list__image c_social-list__image--ph">
                 <title>
                   Product Hunt

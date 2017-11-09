@@ -51,6 +51,7 @@
 
 @import 'tools/functions/map-deep-get';
 @import 'tools/functions/my-color';
+@import 'tools/functions/my-spacing';
 @import 'tools/functions/this-var';
 @import 'tools/mixins/absolute-full';
 @import 'tools/mixins/bg-cover';
@@ -76,7 +77,6 @@
 @import 'components/main-nav';
 @import 'components/main-footer';
 @import 'components/project';
-@import 'components/project-grid';
 @import 'components/project-detail';
 @import 'components/list/project';
 @import 'components/list/blog';

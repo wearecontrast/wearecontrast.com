@@ -2,18 +2,18 @@
   <div class="row row--flex">
     <div class="small-12 medium-8 columns">
       <div class="c_project-detail__main">
-        <h2><a href="https://myyear.co/?utm_source=wearecontrast.com" target="_blank">MyYear <i class="fa fa-external-link"></i></a></h2>
+        <h2><a href="https://myyear.co/?utm_source=wearecontrast.com" target="_blank" rel="nofollow">MyYear <i class="fa fa-external-link"></i></a></h2>
         <p>MyYear enables you to easily create your year in review. Hacked together over Christmas 2015.</p>
 
         <h3>Related links</h3>
         <ul class="o_undercover-list c_project-detail__related">
-          <li><a href="https://myyear.co/?utm_source=wearecontrast.com" target="_blank">MyYear.co</a></li>
+          <li><a href="https://myyear.co/?utm_source=wearecontrast.com" target="_blank" rel="nofollow">MyYear.co</a></li>
           <li><a href="https://blog.wearecontrast.com/how-a-tweet-inspired-a-christmas-hackathon-ed2973ff0689" target="_blank">How a tweet inspired a Christmas Hackathon</a></li>
-          <li><a href="https://www.producthunt.com/tech/my-year" target="_blank">Product Hunt Launch</a></li>
-          <li><a href="http://www.ksl.com/?nid=1194&sid=38023764&title=techtuesday-with-alex-lawrence-0105&fm=home_page&s_cid=topstory" target="_blank">Tech Tuesday Best New Apps &ndash; KSL.com</a></li>
-          <li><a href="https://twitter.com/MyYearCo" target="_blank">@myyearco</i></a></li>
-          <li><a href="https://myyear.co/@mikeaag/2015?utm_source=wearecontrast.com" target="_blank">@mikeaag's MyYear 2015</a></li>
-          <li><a href="https://myyear.co/@fredrivett/2015?utm_source=wearecontrast.com" target="_blank">@fredrivett's MyYear 2015</a></li>
+          <li><a href="https://www.producthunt.com/tech/my-year" target="_blank" rel="nofollow">Product Hunt Launch</a></li>
+          <li><a href="http://www.ksl.com/?nid=1194&sid=38023764&title=techtuesday-with-alex-lawrence-0105&fm=home_page&s_cid=topstory" target="_blank" rel="nofollow">Tech Tuesday Best New Apps &ndash; KSL.com</a></li>
+          <li><a href="https://twitter.com/MyYearCo" target="_blank" rel="nofollow">@myyearco</i></a></li>
+          <li><a href="https://myyear.co/@mikeaag/2015?utm_source=wearecontrast.com" target="_blank" rel="nofollow">@mikeaag's MyYear 2015</a></li>
+          <li><a href="https://myyear.co/@fredrivett/2015?utm_source=wearecontrast.com" target="_blank" rel="nofollow">@fredrivett's MyYear 2015</a></li>
         </ul>
       </div>
     </div>
