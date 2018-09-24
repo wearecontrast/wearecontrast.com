@@ -35,7 +35,5 @@
     <meta name="p:domain_verify" content="ebca3e22b99bba1cf14889cc51a2b10d"/>
 	
 	<script src="/bower_components/jquery/dist/jquery.js"></script>
-	<script src="/bower_components/what-input/what-input.js"></script>
-	<script src="/bower_components/foundation-sites/dist/foundation.js"></script>
-	<script src="/js/all.js"></script>
+	
   </head>
