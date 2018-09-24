@@ -8,22 +8,6 @@
 
   <?php require $root . '/partials/svg-defs.php' ?>
 
-  <div class="c_bar">
-    <form action="https://www.getdrip.com/forms/7565551/submissions" method="post" data-drip-embedded-form="7565551">
-      <div class="o_spacer o_spacer--small">
-        <label for="email">Get our monthly email&nbsp;direct&nbsp;to&nbsp;your&nbsp;inbox</label>
-        <div class="o_h-form-flex c_signup-form c_signup-form--light">
-          <div class="o_h-form-flex__input c_signup-form__input">
-            <input type="email" name="fields[email]" placeholder="Your email address" />
-          </div>
-          <div class="o_h-form-flex__btn">
-            <input type="submit" name="submit" value="Sign me up" class="c_button c_signup-form__button" data-drip-attribute="sign-up-button" />
-          </div>
-        </div>
-      </div>
-    </form>
-  </div>
-
   <div class="c_header-thing text-center">
     <div class="row">
       <div class="small-12 columns">

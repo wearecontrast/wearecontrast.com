@@ -1,7 +1,4 @@
-  <script src="/bower_components/jquery/dist/jquery.js"></script>
-  <script src="/bower_components/what-input/what-input.js"></script>
-  <script src="/bower_components/foundation-sites/dist/foundation.js"></script>
-  <script src="/js/all.js"></script>
+
 
   <script type="text/javascript">
     if (document.location.hostname == "wearecontrast.com") {
@@ -22,21 +19,6 @@
       ga('require', 'displayfeatures');
       ga('send', 'pageview');
     }
-  </script>
-
-  <script>
-    window.productHuntUpcoming = {
-      appId: 201,
-      position: 'bottomLeft',
-    };
-
-    (function(doc, scr, src, a, b) {
-      a = doc.createElement(scr);
-      b = doc.getElementsByTagName(scr)[0];
-      a.async = true;
-      a.src = src;
-      b.parentNode.insertBefore(a, b);
-    })(document, 'script', 'https://assets.producthunt.com/assets/upwigloader.js');
   </script>
 
 </body>
